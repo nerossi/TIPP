@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,viewport-fit=cover">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.css?v=8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css?v=14">
     <link rel="stylesheet" href="./scripts/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="./scripts/owlcarousel/dist/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="./scripts/script.js?v=8"></script>
+    <!-- <script src="./scripts/owlcarousel/dist/owl.carousel.min.js"></script> -->
+    <script type="text/javascript" src="./scripts/script.js?v=13"></script>
     <title>TIPP</title>
 </head>
 <body>
     <div style="overflow: hidden;">
         <div class="load_modal">
-            <div class="logo">
+            <div class="logo" style="flex-direction: column;">
                 <img src="./img/logo.png"/>
+                <div id='log' style="font-size:18px; color: black; font-weight: bold;">로그</div>
             </div>
         </div>
         <div class="container">
@@ -35,7 +36,7 @@
                     <div class="video-box" id="left-video">
                         <div class="main-videos">
                             <div class="main-video left">
-                                <video preload="metadata" playsinline autoplay muted loop controls="false">
+                                <video preload="auto" playsinline muted loop controls="false">
                                     <source src="./videos/left_video2.mp4" type="video/mp4"> 
                                 </video>
                             </div>
@@ -70,8 +71,8 @@
                         </div>
                         <div class="main-videos">
                             <div class="main-video right">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/right_video.mp4" type="video/mp4"> 
+                                <video preload="auto" playsinline muted loop controls="false">
+                                    <source src="./videos/right_video2.mp4" type="video/mp4"> 
                                 </video>
                             </div>
                         </div>
@@ -82,7 +83,7 @@
                         <div class="video-box" id="left-video">
                             <div class="main-videos">
                                 <div class="main-video left">
-                                    <video preload="metadata" autoplay="true" muted loop controls="false" playsinline>
+                                    <video preload="auto" muted loop controls="false" playsinline>
                                         <source src="./videos/left_video2.mp4" type="video/mp4"> 
                                     </video>
                                 </div>
@@ -107,50 +108,8 @@
                     <div class="scroller owl-carousel">
                         <div class="sub-videos">
                             <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
+                                <video preload="auto" playsinline muted loop>
                                     <source src="./videos/left_video2.mp4#t=20" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/right_video.mp4#t=1" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/left_video2.mp4#t=15" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/right_video.mp4#t=5" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/left_video2.mp4#t=1" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/right_video.mp4#t=10" type="video/mp4"> 
-                                </video>
-                            </div>
-                        </div>
-                        <div class="sub-videos">
-                            <div class="sub-video">
-                                <video preload="auto" playsinline autoplay muted loop>
-                                    <source src="./videos/left_video2.mp4#t=5" type="video/mp4"> 
                                 </video>
                             </div>
                         </div>
